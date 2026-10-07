@@ -1,0 +1,957 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:3d5e15d5-87f7-5243-9789-400ec66a4076",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:38:00Z",
+  "component": {
+   "type": "application",
+   "name": "BOTPRESS",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/BOTPRESS@83b357604d34",
+   "purl": "pkg:generic/anticloud/BOTPRESS@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@botpress/common",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/common@workspace:*",
+   "bom-ref": "npm/@botpress/common@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpress/sdk",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/sdk@workspace:*",
+   "bom-ref": "npm/@botpress/sdk@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpress/sdk-addons",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/sdk-addons@workspace:*",
+   "bom-ref": "npm/@botpress/sdk-addons@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@bpinternal/slackdown",
+   "version": "^0.1.0",
+   "purl": "pkg:npm/@bpinternal/slackdown@^0.1.0",
+   "bom-ref": "npm/@bpinternal/slackdown@^0.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@slack/types",
+   "version": "^2.20.0",
+   "purl": "pkg:npm/@slack/types@^2.20.0",
+   "bom-ref": "npm/@slack/types@^2.20.0"
+  },
+  {
+   "type": "library",
+   "name": "@slack/web-api",
+   "version": "^6.13.0",
+   "purl": "pkg:npm/@slack/web-api@^6.13.0",
+   "bom-ref": "npm/@slack/web-api@^6.13.0"
+  },
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^1.3.4",
+   "purl": "pkg:npm/axios@^1.3.4",
+   "bom-ref": "npm/axios@^1.3.4"
+  },
+  {
+   "type": "library",
+   "name": "fuse.js",
+   "version": "^6.6.2",
+   "purl": "pkg:npm/fuse.js@^6.6.2",
+   "bom-ref": "npm/fuse.js@^6.6.2"
+  },
+  {
+   "type": "library",
+   "name": "@botpress/cli",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/cli@workspace:*",
+   "bom-ref": "npm/@botpress/cli@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpress/client",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/client@workspace:*",
+   "bom-ref": "npm/@botpress/client@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "oxfmt",
+   "version": "^0.61.0",
+   "purl": "pkg:npm/oxfmt@^0.61.0",
+   "bom-ref": "npm/oxfmt@^0.61.0"
+  },
+  {
+   "type": "library",
+   "name": "@shopify/cli",
+   "version": "~4.1.0",
+   "purl": "pkg:npm/@shopify/cli@~4.1.0",
+   "bom-ref": "npm/@shopify/cli@~4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@azure/msal-node",
+   "version": "^3.6.2",
+   "purl": "pkg:npm/@azure/msal-node@^3.6.2",
+   "bom-ref": "npm/@azure/msal-node@^3.6.2"
+  },
+  {
+   "type": "library",
+   "name": "xlsx",
+   "version": "^0.18.5",
+   "purl": "pkg:npm/xlsx@^0.18.5",
+   "bom-ref": "npm/xlsx@^0.18.5"
+  },
+  {
+   "type": "library",
+   "name": "@sendgrid/client",
+   "version": "^8.1.5",
+   "purl": "pkg:npm/@sendgrid/client@^8.1.5",
+   "bom-ref": "npm/@sendgrid/client@^8.1.5"
+  },
+  {
+   "type": "library",
+   "name": "@sendgrid/eventwebhook",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/@sendgrid/eventwebhook@^8.0.0",
+   "bom-ref": "npm/@sendgrid/eventwebhook@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@sendgrid/helpers",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/@sendgrid/helpers@^8.0.0",
+   "bom-ref": "npm/@sendgrid/helpers@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@sendgrid/mail",
+   "version": "^8.1.5",
+   "purl": "pkg:npm/@sendgrid/mail@^8.1.5",
+   "bom-ref": "npm/@sendgrid/mail@^8.1.5"
+  },
+  {
+   "type": "library",
+   "name": "markdown-it",
+   "version": "^14.1.0",
+   "purl": "pkg:npm/markdown-it@^14.1.0",
+   "bom-ref": "npm/markdown-it@^14.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/markdown-it",
+   "version": "^14.1.2",
+   "purl": "pkg:npm/@types/markdown-it@^14.1.2",
+   "bom-ref": "npm/@types/markdown-it@^14.1.2"
+  },
+  {
+   "type": "library",
+   "name": "jsforce",
+   "version": "^1.11.1",
+   "purl": "pkg:npm/jsforce@^1.11.1",
+   "bom-ref": "npm/jsforce@^1.11.1"
+  },
+  {
+   "type": "library",
+   "name": "preact",
+   "version": "^10.26.6",
+   "purl": "pkg:npm/preact@^10.26.6",
+   "bom-ref": "npm/preact@^10.26.6"
+  },
+  {
+   "type": "library",
+   "name": "preact-render-to-string",
+   "version": "^6.5.13",
+   "purl": "pkg:npm/preact-render-to-string@^6.5.13",
+   "bom-ref": "npm/preact-render-to-string@^6.5.13"
+  },
+  {
+   "type": "library",
+   "name": "@types/jsforce",
+   "version": "^1.11.5",
+   "purl": "pkg:npm/@types/jsforce@^1.11.5",
+   "bom-ref": "npm/@types/jsforce@^1.11.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^22.16.4",
+   "purl": "pkg:npm/@types/node@^22.16.4",
+   "bom-ref": "npm/@types/node@^22.16.4"
+  },
+  {
+   "type": "library",
+   "name": "resend",
+   "version": "^4.6.0",
+   "purl": "pkg:npm/resend@^4.6.0",
+   "bom-ref": "npm/resend@^4.6.0"
+  },
+  {
+   "type": "library",
+   "name": "svix",
+   "version": "^1.69.0",
+   "purl": "pkg:npm/svix@^1.69.0",
+   "bom-ref": "npm/svix@^1.69.0"
+  },
+  {
+   "type": "library",
+   "name": "postmark",
+   "version": "^4.0.7",
+   "purl": "pkg:npm/postmark@^4.0.7",
+   "bom-ref": "npm/postmark@^4.0.7"
+  },
+  {
+   "type": "library",
+   "name": "marked",
+   "version": "^15.0.1",
+   "purl": "pkg:npm/marked@^15.0.1",
+   "bom-ref": "npm/marked@^15.0.1"
+  },
+  {
+   "type": "library",
+   "name": "openai",
+   "version": "^6.9.0",
+   "purl": "pkg:npm/openai@^6.9.0",
+   "bom-ref": "npm/openai@^6.9.0"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/llm",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/llm@workspace:*",
+   "bom-ref": "npm/@botpresshub/llm@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/speech-to-text",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/speech-to-text@workspace:*",
+   "bom-ref": "npm/@botpresshub/speech-to-text@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/text-to-image",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/text-to-image@workspace:*",
+   "bom-ref": "npm/@botpresshub/text-to-image@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@notionhq/client",
+   "version": "^5.6.0",
+   "purl": "pkg:npm/@notionhq/client@^5.6.0",
+   "bom-ref": "npm/@notionhq/client@^5.6.0"
+  },
+  {
+   "type": "library",
+   "name": "@tryfabric/martian",
+   "version": "^1.2.4",
+   "purl": "pkg:npm/@tryfabric/martian@^1.2.4",
+   "bom-ref": "npm/@tryfabric/martian@^1.2.4"
+  },
+  {
+   "type": "library",
+   "name": "notion-to-md",
+   "version": "^4.0.0-alpha.4",
+   "purl": "pkg:npm/notion-to-md@^4.0.0-alpha.4",
+   "bom-ref": "npm/notion-to-md@^4.0.0-alpha.4"
+  },
+  {
+   "type": "library",
+   "name": "@mistralai/mistralai",
+   "version": "^1.11.0",
+   "purl": "pkg:npm/@mistralai/mistralai@^1.11.0",
+   "bom-ref": "npm/@mistralai/mistralai@^1.11.0"
+  },
+  {
+   "type": "library",
+   "name": "messaging-api-messenger",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/messaging-api-messenger@^1.1.0",
+   "bom-ref": "npm/messaging-api-messenger@^1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@mailchimp/mailchimp_marketing",
+   "version": "^3.0.80",
+   "purl": "pkg:npm/@mailchimp/mailchimp_marketing@^3.0.80",
+   "bom-ref": "npm/@mailchimp/mailchimp_marketing@^3.0.80"
+  },
+  {
+   "type": "library",
+   "name": "@types/mailchimp__mailchimp_marketing",
+   "version": "3.0.10",
+   "purl": "pkg:npm/@types/mailchimp__mailchimp_marketing@3.0.10",
+   "bom-ref": "npm/@types/mailchimp__mailchimp_marketing@3.0.10"
+  },
+  {
+   "type": "library",
+   "name": "@linear/sdk",
+   "version": "^65.2.0",
+   "purl": "pkg:npm/@linear/sdk@^65.2.0",
+   "bom-ref": "npm/@linear/sdk@^65.2.0"
+  },
+  {
+   "type": "library",
+   "name": "query-string",
+   "version": "^6.14.1",
+   "purl": "pkg:npm/query-string@^6.14.1",
+   "bom-ref": "npm/query-string@^6.14.1"
+  },
+  {
+   "type": "library",
+   "name": "tsafe",
+   "version": "^1.6.4",
+   "purl": "pkg:npm/tsafe@^1.6.4",
+   "bom-ref": "npm/tsafe@^1.6.4"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/deletable",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/deletable@workspace:*",
+   "bom-ref": "npm/@botpresshub/deletable@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/listable",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/listable@workspace:*",
+   "bom-ref": "npm/@botpresshub/listable@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/proactive-conversation",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/proactive-conversation@workspace:*",
+   "bom-ref": "npm/@botpresshub/proactive-conversation@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@line/bot-sdk",
+   "version": "^9.5.0",
+   "purl": "pkg:npm/@line/bot-sdk@^9.5.0",
+   "bom-ref": "npm/@line/bot-sdk@^9.5.0"
+  },
+  {
+   "type": "library",
+   "name": "remark",
+   "version": "^15.0.1",
+   "purl": "pkg:npm/remark@^15.0.1",
+   "bom-ref": "npm/remark@^15.0.1"
+  },
+  {
+   "type": "library",
+   "name": "remark-gfm",
+   "version": "^4.0.1",
+   "purl": "pkg:npm/remark-gfm@^4.0.1",
+   "bom-ref": "npm/remark-gfm@^4.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/proactive-user",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/proactive-user@workspace:*",
+   "bom-ref": "npm/@botpresshub/proactive-user@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/typing-indicator",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/typing-indicator@workspace:*",
+   "bom-ref": "npm/@botpresshub/typing-indicator@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/mdast",
+   "version": "^4.0.4",
+   "purl": "pkg:npm/@types/mdast@^4.0.4",
+   "bom-ref": "npm/@types/mdast@^4.0.4"
+  },
+  {
+   "type": "library",
+   "name": "jira.js",
+   "version": "^2.19.1",
+   "purl": "pkg:npm/jira.js@^2.19.1",
+   "bom-ref": "npm/jira.js@^2.19.1"
+  },
+  {
+   "type": "library",
+   "name": "intercom-client",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/intercom-client@^4.0.0",
+   "bom-ref": "npm/intercom-client@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "dotenv",
+   "version": "^16.4.4",
+   "purl": "pkg:npm/dotenv@^16.4.4",
+   "bom-ref": "npm/dotenv@^16.4.4"
+  },
+  {
+   "type": "library",
+   "name": "@hubspot/api-client",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/@hubspot/api-client@^13.1.0",
+   "bom-ref": "npm/@hubspot/api-client@^13.1.0"
+  },
+  {
+   "type": "library",
+   "name": "googleapis",
+   "version": "^171.4.0",
+   "purl": "pkg:npm/googleapis@^171.4.0",
+   "bom-ref": "npm/googleapis@^171.4.0"
+  },
+  {
+   "type": "library",
+   "name": "jsonwebtoken",
+   "version": "^9.0.2",
+   "purl": "pkg:npm/jsonwebtoken@^9.0.2",
+   "bom-ref": "npm/jsonwebtoken@^9.0.2"
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "version": "^9.0.0",
+   "purl": "pkg:npm/uuid@^9.0.0",
+   "bom-ref": "npm/uuid@^9.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/jsonwebtoken",
+   "version": "^9.0.3",
+   "purl": "pkg:npm/@types/jsonwebtoken@^9.0.3",
+   "bom-ref": "npm/@types/jsonwebtoken@^9.0.3"
+  },
+  {
+   "type": "library",
+   "name": "@types/uuid",
+   "version": "^9.0.1",
+   "purl": "pkg:npm/@types/uuid@^9.0.1",
+   "bom-ref": "npm/@types/uuid@^9.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/creatable",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/creatable@workspace:*",
+   "bom-ref": "npm/@botpresshub/creatable@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/readable",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/readable@workspace:*",
+   "bom-ref": "npm/@botpresshub/readable@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/updatable",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/updatable@workspace:*",
+   "bom-ref": "npm/@botpresshub/updatable@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@google/genai",
+   "version": "^1.7.0",
+   "purl": "pkg:npm/@google/genai@^1.7.0",
+   "bom-ref": "npm/@google/genai@^1.7.0"
+  },
+  {
+   "type": "library",
+   "name": "@react-email/components",
+   "version": "0.0.25",
+   "purl": "pkg:npm/@react-email/components@0.0.25",
+   "bom-ref": "npm/@react-email/components@0.0.25"
+  },
+  {
+   "type": "library",
+   "name": "gmail-api-parse-message",
+   "version": "^2.1.2",
+   "purl": "pkg:npm/gmail-api-parse-message@^2.1.2",
+   "bom-ref": "npm/gmail-api-parse-message@^2.1.2"
+  },
+  {
+   "type": "library",
+   "name": "node-html-parser",
+   "version": "^6",
+   "purl": "pkg:npm/node-html-parser@^6",
+   "bom-ref": "npm/node-html-parser@^6"
+  },
+  {
+   "type": "library",
+   "name": "nodemailer",
+   "version": "^6.7.2",
+   "purl": "pkg:npm/nodemailer@^6.7.2",
+   "bom-ref": "npm/nodemailer@^6.7.2"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react@^18.3.1",
+   "bom-ref": "npm/react@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react-dom@^18.3.1",
+   "bom-ref": "npm/react-dom@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/nodemailer",
+   "version": "^6.4.4",
+   "purl": "pkg:npm/@types/nodemailer@^6.4.4",
+   "bom-ref": "npm/@types/nodemailer@^6.4.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^18.3.11",
+   "purl": "pkg:npm/@types/react@^18.3.11",
+   "bom-ref": "npm/@types/react@^18.3.11"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/@types/react-dom@^18.3.1",
+   "bom-ref": "npm/@types/react-dom@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@octokit/webhooks-methods",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/@octokit/webhooks-methods@^3.0.2",
+   "bom-ref": "npm/@octokit/webhooks-methods@^3.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@octokit/webhooks-types",
+   "version": "^7.6.1",
+   "purl": "pkg:npm/@octokit/webhooks-types@^7.6.1",
+   "bom-ref": "npm/@octokit/webhooks-types@^7.6.1"
+  },
+  {
+   "type": "library",
+   "name": "octokit",
+   "version": "^2.0.19",
+   "purl": "pkg:npm/octokit@^2.0.19",
+   "bom-ref": "npm/octokit@^2.0.19"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/hitl",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/hitl@workspace:*",
+   "bom-ref": "npm/@botpresshub/hitl@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash",
+   "version": "^4.14.191",
+   "purl": "pkg:npm/@types/lodash@^4.14.191",
+   "bom-ref": "npm/@types/lodash@^4.14.191"
+  },
+  {
+   "type": "library",
+   "name": "imap",
+   "version": "^0.8.17",
+   "purl": "pkg:npm/imap@^0.8.17",
+   "bom-ref": "npm/imap@^0.8.17"
+  },
+  {
+   "type": "library",
+   "name": "@types/imap",
+   "version": "^0.8.42",
+   "purl": "pkg:npm/@types/imap@^0.8.42",
+   "bom-ref": "npm/@types/imap@^0.8.42"
+  },
+  {
+   "type": "library",
+   "name": "dropbox",
+   "version": "^10.34.0",
+   "purl": "pkg:npm/dropbox@^10.34.0",
+   "bom-ref": "npm/dropbox@^10.34.0"
+  },
+  {
+   "type": "library",
+   "name": "docusign-esign",
+   "version": "^8.4.0",
+   "purl": "pkg:npm/docusign-esign@^8.4.0",
+   "bom-ref": "npm/docusign-esign@^8.4.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/docusign-esign",
+   "version": "^5.19.9",
+   "purl": "pkg:npm/@types/docusign-esign@^5.19.9",
+   "bom-ref": "npm/@types/docusign-esign@^5.19.9"
+  },
+  {
+   "type": "library",
+   "name": "rehype-stringify",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/rehype-stringify@^10.0.1",
+   "bom-ref": "npm/rehype-stringify@^10.0.1"
+  },
+  {
+   "type": "library",
+   "name": "remark-parse",
+   "version": "^11.0.0",
+   "purl": "pkg:npm/remark-parse@^11.0.0",
+   "bom-ref": "npm/remark-parse@^11.0.0"
+  },
+  {
+   "type": "library",
+   "name": "remark-rehype",
+   "version": "^11.1.2",
+   "purl": "pkg:npm/remark-rehype@^11.1.2",
+   "bom-ref": "npm/remark-rehype@^11.1.2"
+  },
+  {
+   "type": "library",
+   "name": "unified",
+   "version": "^11.0.5",
+   "purl": "pkg:npm/unified@^11.0.5",
+   "bom-ref": "npm/unified@^11.0.5"
+  },
+  {
+   "type": "library",
+   "name": "@aws-sdk/client-dynamodb",
+   "version": "^3.564.0",
+   "purl": "pkg:npm/@aws-sdk/client-dynamodb@^3.564.0",
+   "bom-ref": "npm/@aws-sdk/client-dynamodb@^3.564.0"
+  },
+  {
+   "type": "library",
+   "name": "@bpinternal/pingrip",
+   "version": "0.1.1",
+   "purl": "pkg:npm/@bpinternal/pingrip@0.1.1",
+   "bom-ref": "npm/@bpinternal/pingrip@0.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/api",
+   "version": "1.9.0",
+   "purl": "pkg:npm/@opentelemetry/api@1.9.0",
+   "bom-ref": "npm/@opentelemetry/api@1.9.0"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/core",
+   "version": "1.30.0",
+   "purl": "pkg:npm/@opentelemetry/core@1.30.0",
+   "bom-ref": "npm/@opentelemetry/core@1.30.0"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/exporter-trace-otlp-http",
+   "version": "0.54.2",
+   "purl": "pkg:npm/@opentelemetry/exporter-trace-otlp-http@0.54.2",
+   "bom-ref": "npm/@opentelemetry/exporter-trace-otlp-http@0.54.2"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/instrumentation",
+   "version": "0.54.2",
+   "purl": "pkg:npm/@opentelemetry/instrumentation@0.54.2",
+   "bom-ref": "npm/@opentelemetry/instrumentation@0.54.2"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/instrumentation-http",
+   "version": "0.54.2",
+   "purl": "pkg:npm/@opentelemetry/instrumentation-http@0.54.2",
+   "bom-ref": "npm/@opentelemetry/instrumentation-http@0.54.2"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/resources",
+   "version": "1.27.0",
+   "purl": "pkg:npm/@opentelemetry/resources@1.27.0",
+   "bom-ref": "npm/@opentelemetry/resources@1.27.0"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/sdk-trace-base",
+   "version": "1.27.0",
+   "purl": "pkg:npm/@opentelemetry/sdk-trace-base@1.27.0",
+   "bom-ref": "npm/@opentelemetry/sdk-trace-base@1.27.0"
+  },
+  {
+   "type": "library",
+   "name": "@opentelemetry/sdk-trace-node",
+   "version": "1.27.0",
+   "purl": "pkg:npm/@opentelemetry/sdk-trace-node@1.27.0",
+   "bom-ref": "npm/@opentelemetry/sdk-trace-node@1.27.0"
+  },
+  {
+   "type": "library",
+   "name": "ajv",
+   "version": "^8.12.0",
+   "purl": "pkg:npm/ajv@^8.12.0",
+   "bom-ref": "npm/ajv@^8.12.0"
+  },
+  {
+   "type": "library",
+   "name": "lodash",
+   "version": "^4.17.21",
+   "purl": "pkg:npm/lodash@^4.17.21",
+   "bom-ref": "npm/lodash@^4.17.21"
+  },
+  {
+   "type": "library",
+   "name": "prom-client",
+   "version": "^15.1.3",
+   "purl": "pkg:npm/prom-client@^15.1.3",
+   "bom-ref": "npm/prom-client@^15.1.3"
+  },
+  {
+   "type": "library",
+   "name": "qs",
+   "version": "^6.11.0",
+   "purl": "pkg:npm/qs@^6.11.0",
+   "bom-ref": "npm/qs@^6.11.0"
+  },
+  {
+   "type": "library",
+   "name": "@botpress/chat-api",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpress/chat-api@workspace:*",
+   "bom-ref": "npm/@botpress/chat-api@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/json-schema",
+   "version": "^7.0.12",
+   "purl": "pkg:npm/@types/json-schema@^7.0.12",
+   "bom-ref": "npm/@types/json-schema@^7.0.12"
+  },
+  {
+   "type": "library",
+   "name": "@types/qs",
+   "version": "^6.9.7",
+   "purl": "pkg:npm/@types/qs@^6.9.7",
+   "bom-ref": "npm/@types/qs@^6.9.7"
+  },
+  {
+   "type": "library",
+   "name": "chart.js",
+   "version": "^3.9.1",
+   "purl": "pkg:npm/chart.js@^3.9.1",
+   "bom-ref": "npm/chart.js@^3.9.1"
+  },
+  {
+   "type": "library",
+   "name": "@mendable/firecrawl-js",
+   "version": "^4.3.8",
+   "purl": "pkg:npm/@mendable/firecrawl-js@^4.3.8",
+   "bom-ref": "npm/@mendable/firecrawl-js@^4.3.8"
+  },
+  {
+   "type": "library",
+   "name": "asana",
+   "version": "^1.0.2",
+   "purl": "pkg:npm/asana@^1.0.2",
+   "bom-ref": "npm/asana@^1.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/asana",
+   "version": "^0.18.12",
+   "purl": "pkg:npm/@types/asana@^0.18.12",
+   "bom-ref": "npm/@types/asana@^0.18.12"
+  },
+  {
+   "type": "library",
+   "name": "@anthropic-ai/sdk",
+   "version": "^0.52.0",
+   "purl": "pkg:npm/@anthropic-ai/sdk@^0.52.0",
+   "bom-ref": "npm/@anthropic-ai/sdk@^0.52.0"
+  },
+  {
+   "type": "library",
+   "name": "airtable",
+   "version": "^0.12.2",
+   "purl": "pkg:npm/airtable@^0.12.2",
+   "bom-ref": "npm/airtable@^0.12.2"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/chat",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/chat@workspace:*",
+   "bom-ref": "npm/@botpresshub/chat@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/dropbox",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/dropbox@workspace:*",
+   "bom-ref": "npm/@botpresshub/dropbox@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/file-synchronizer",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/file-synchronizer@workspace:*",
+   "bom-ref": "npm/@botpresshub/file-synchronizer@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@bpinternal/genenv",
+   "version": "0.0.1",
+   "purl": "pkg:npm/@bpinternal/genenv@0.0.1",
+   "bom-ref": "npm/@bpinternal/genenv@0.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/gmail",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/gmail@workspace:*",
+   "bom-ref": "npm/@botpresshub/gmail@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/slack",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/slack@workspace:*",
+   "bom-ref": "npm/@botpresshub/slack@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/linear",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/linear@workspace:*",
+   "bom-ref": "npm/@botpresshub/linear@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/synchronizer",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/synchronizer@workspace:*",
+   "bom-ref": "npm/@botpresshub/synchronizer@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/gsheets",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/gsheets@workspace:*",
+   "bom-ref": "npm/@botpresshub/gsheets@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/telegram",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/telegram@workspace:*",
+   "bom-ref": "npm/@botpresshub/telegram@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/notion",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/notion@workspace:*",
+   "bom-ref": "npm/@botpresshub/notion@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/knowledge",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/knowledge@workspace:*",
+   "bom-ref": "npm/@botpresshub/knowledge@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/openai",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/openai@workspace:*",
+   "bom-ref": "npm/@botpresshub/openai@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/personality",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/personality@workspace:*",
+   "bom-ref": "npm/@botpresshub/personality@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/hitl-plugin",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/hitl-plugin@workspace:*",
+   "bom-ref": "npm/@botpresshub/hitl-plugin@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/zendesk",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/zendesk@workspace:*",
+   "bom-ref": "npm/@botpresshub/zendesk@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/todoist",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/todoist@workspace:*",
+   "bom-ref": "npm/@botpresshub/todoist@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "cheerio",
+   "version": "^1.1.2",
+   "purl": "pkg:npm/cheerio@^1.1.2",
+   "bom-ref": "npm/cheerio@^1.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@botpresshub/github",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@botpresshub/github@workspace:*",
+   "bom-ref": "npm/@botpresshub/github@workspace:*"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}

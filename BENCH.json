@@ -1,0 +1,5071 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "BOTPRESS",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CHAT_PLATFORMS\\BOTPRESS\\UPSTREAM_CLONE",
+  "git": {
+   "head": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE",
+   "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "local clone .git file read (no .git dir in clone)"
+  }
+ },
+ "metrics": {
+  "files_total": 1717,
+  "source_files_scanned": 1343,
+  "lines_of_code": 88460,
+  "languages": {
+   ".ts": 1340,
+   ".json": 158,
+   ".md": 73,
+   ".svg": 63,
+   ".vrl": 45,
+   "(none)": 24,
+   ".toml": 6,
+   ".tiltfile": 2,
+   ".js": 2,
+   ".txt": 1,
+   ".yaml": 1,
+   ".tsx": 1,
+   ".png": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 594,
+  "unique": 130,
+  "by_ecosystem": {
+   "npm": 594
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@bpinternal/slackdown",
+    "version": "^0.1.0",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@slack/types",
+    "version": "^2.20.0",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@slack/web-api",
+    "version": "^6.13.0",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.3.4",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fuse.js",
+    "version": "^6.6.2",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "oxfmt",
+    "version": "^0.61.0",
+    "source_file": "integrations/slack/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@shopify/cli",
+    "version": "~4.1.0",
+    "source_file": "integrations/shopify-storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/shopify-admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@shopify/cli",
+    "version": "~4.1.0",
+    "source_file": "integrations/shopify-admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@azure/msal-node",
+    "version": "^3.6.2",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.10.0",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "xlsx",
+    "version": "^0.18.5",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint-excel/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@azure/msal-node",
+    "version": "^3.6.2",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.10.0",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sharepoint/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@sendgrid/client",
+    "version": "^8.1.5",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@sendgrid/eventwebhook",
+    "version": "^8.0.0",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@sendgrid/helpers",
+    "version": "^8.0.0",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@sendgrid/mail",
+    "version": "^8.1.5",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "markdown-it",
+    "version": "^14.1.0",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/markdown-it",
+    "version": "^14.1.2",
+    "source_file": "integrations/sendgrid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.7",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsforce",
+    "version": "^1.11.1",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact-render-to-string",
+    "version": "^6.5.13",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsforce",
+    "version": "^1.11.5",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.16.4",
+    "source_file": "integrations/salesforce/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "markdown-it",
+    "version": "^14.1.0",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "resend",
+    "version": "^4.6.0",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "svix",
+    "version": "^1.69.0",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/markdown-it",
+    "version": "^14.1.2",
+    "source_file": "integrations/resend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/postmark/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/postmark/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postmark",
+    "version": "^4.0.7",
+    "source_file": "integrations/postmark/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/postmark/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/postmark/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.2",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "marked",
+    "version": "^15.0.1",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/pdf-generator/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "openai",
+    "version": "^6.9.0",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/speech-to-text",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/text-to-image",
+    "version": "workspace:*",
+    "source_file": "integrations/openai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/odoo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@notionhq/client",
+    "version": "^5.6.0",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tryfabric/martian",
+    "version": "^1.2.4",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "notion-to-md",
+    "version": "^4.0.0-alpha.4",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/notion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/n8n/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/n8n/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.9",
+    "source_file": "integrations/n8n/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/n8n/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/n8n/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.4.0",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/monday/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mistralai/mistralai",
+    "version": "^1.11.0",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/mistral-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/mintlify/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mintlify/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.13.1",
+    "source_file": "integrations/mintlify/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/mintlify/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mintlify/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.6.2",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "messaging-api-messenger",
+    "version": "^1.1.0",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/messenger/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.6.7",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/make/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mailchimp/mailchimp_marketing",
+    "version": "^3.0.80",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/mailchimp__mailchimp_marketing",
+    "version": "3.0.10",
+    "source_file": "integrations/mailchimp/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/loops/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/loops/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/loops/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/loops/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/linkedin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/linkedin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/linkedin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/linkedin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.16.4",
+    "source_file": "integrations/linkedin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@linear/sdk",
+    "version": "^65.2.0",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.4.0",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "query-string",
+    "version": "^6.14.1",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsafe",
+    "version": "^1.6.4",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/deletable",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/listable",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/proactive-conversation",
+    "version": "workspace:*",
+    "source_file": "integrations/linear/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@line/bot-sdk",
+    "version": "^9.5.0",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark",
+    "version": "^15.0.1",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark-gfm",
+    "version": "^4.0.1",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/proactive-conversation",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/proactive-user",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/typing-indicator",
+    "version": "workspace:*",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/mdast",
+    "version": "^4.0.4",
+    "source_file": "integrations/line/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/kommo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/kommo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.13.2",
+    "source_file": "integrations/kommo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/kommo/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jira.js",
+    "version": "^2.19.1",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.16.4",
+    "source_file": "integrations/jira/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.8",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "intercom-client",
+    "version": "^4.0.0",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/intercom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.6.2",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dotenv",
+    "version": "^16.4.4",
+    "source_file": "integrations/instagram/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/hunter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/hunter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.13.1",
+    "source_file": "integrations/hunter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/hunter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/hunter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hubspot/api-client",
+    "version": "^13.1.0",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact-render-to-string",
+    "version": "^6.5.13",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.16.4",
+    "source_file": "integrations/hubspot/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "googleapis",
+    "version": "^171.4.0",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/gsheets/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "openai",
+    "version": "^5.12.1",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/speech-to-text",
+    "version": "workspace:*",
+    "source_file": "integrations/groq/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.7",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "googleapis",
+    "version": "^144.0.0",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.2",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^9.0.0",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/uuid",
+    "version": "^9.0.1",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/googledrivekb/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.7",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "googleapis",
+    "version": "^144.0.0",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.2",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^9.0.0",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/uuid",
+    "version": "^9.0.1",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/googledrive/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "googleapis",
+    "version": "^144.0.0",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/creatable",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/deletable",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/listable",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/readable",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/updatable",
+    "version": "workspace:*",
+    "source_file": "integrations/googlecalendar/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/google-analytics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.13.1",
+    "source_file": "integrations/google-analytics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/google-analytics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@google/genai",
+    "version": "^1.7.0",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/google-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@react-email/components",
+    "version": "0.0.25",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "gmail-api-parse-message",
+    "version": "^2.1.2",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "googleapis",
+    "version": "^112.0.0",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-html-parser",
+    "version": "^6",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nodemailer",
+    "version": "^6.7.2",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.3.1",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.3.1",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/nodemailer",
+    "version": "^6.4.4",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.11",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.3.1",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "oxfmt",
+    "version": "^0.61.0",
+    "source_file": "integrations/gmail/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@octokit/webhooks-methods",
+    "version": "^3.0.2",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@octokit/webhooks-types",
+    "version": "^7.6.1",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fuse.js",
+    "version": "^6.6.2",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "octokit",
+    "version": "^2.0.19",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact",
+    "version": "^10.26.6",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "preact-render-to-string",
+    "version": "^6.5.13",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/github/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/freshdesk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.4.0",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/hitl",
+    "version": "workspace:*",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash",
+    "version": "^4.14.191",
+    "source_file": "integrations/freshchat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "openai",
+    "version": "^5.12.1",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/speech-to-text",
+    "version": "workspace:*",
+    "source_file": "integrations/fireworks-ai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/feature-base/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/feature-base/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.11.0",
+    "source_file": "integrations/feature-base/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/feature-base/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/feature-base/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "imap",
+    "version": "^0.8.17",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nodemailer",
+    "version": "^6.7.2",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/imap",
+    "version": "^0.8.42",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/nodemailer",
+    "version": "^6.4.4",
+    "source_file": "integrations/email/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dropbox",
+    "version": "^10.34.0",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/dropbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.12.2",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "docusign-esign",
+    "version": "^8.4.0",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/docusign-esign",
+    "version": "^5.19.9",
+    "source_file": "integrations/docusign/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.6.7",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/dalle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "1.8.4",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rehype-stringify",
+    "version": "^10.0.1",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark-gfm",
+    "version": "^4.0.1",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark-parse",
+    "version": "^11.0.0",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark-rehype",
+    "version": "^11.1.2",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "unified",
+    "version": "^11.0.5",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/confluence/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.7",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/clickup/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@aws-sdk/client-dynamodb",
+    "version": "^3.564.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@bpinternal/pingrip",
+    "version": "0.1.1",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/api",
+    "version": "1.9.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/core",
+    "version": "1.30.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/exporter-trace-otlp-http",
+    "version": "0.54.2",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/instrumentation",
+    "version": "0.54.2",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/instrumentation-http",
+    "version": "0.54.2",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/resources",
+    "version": "1.27.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/sdk-trace-base",
+    "version": "1.27.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/sdk-trace-node",
+    "version": "1.27.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ajv",
+    "version": "^8.12.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "1.2.5",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.2",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prom-client",
+    "version": "^15.1.3",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "qs",
+    "version": "^6.11.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^9.0.0",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/chat-api",
+    "version": "workspace:*",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/json-schema",
+    "version": "^7.0.12",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash",
+    "version": "^4.14.191",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/qs",
+    "version": "^6.9.7",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/uuid",
+    "version": "^9.0.1",
+    "source_file": "integrations/chat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.2",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chart.js",
+    "version": "^3.9.1",
+    "source_file": "integrations/charts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "openai",
+    "version": "^5.12.1",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/cerebras/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/canny/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/canny/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.6.0",
+    "source_file": "integrations/canny/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/canny/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/canny/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.11.0",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/calendly/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/calcom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/calcom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.11.0",
+    "source_file": "integrations/calcom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/calcom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/calcom/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mendable/firecrawl-js",
+    "version": "^4.3.8",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.2",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/browser/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/bigcommerce-sync/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/bigcommerce-sync/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.7.2",
+    "source_file": "integrations/bigcommerce-sync/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/bigcommerce-sync/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/bigcommerce-sync/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.2",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash",
+    "version": "^4.14.191",
+    "source_file": "integrations/bamboohr/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/attio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/attio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/attio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/attio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "asana",
+    "version": "^1.0.2",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/asana",
+    "version": "^0.18.12",
+    "source_file": "integrations/asana/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@anthropic-ai/sdk",
+    "version": "^0.52.0",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "source_file": "integrations/anthropic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "airtable",
+    "version": "^0.12.2",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^1.5.0",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "integrations/airtable/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/chat",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/dropbox",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/file-synchronizer",
+    "version": "workspace:*",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@bpinternal/genenv",
+    "version": "0.0.1",
+    "source_file": "bots/synchrotron/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@botpresshub/gmail",
+    "version": "workspace:*",
+    "source_file": "bots/slackbox/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 80,
+  "files_with_findings": 80,
+  "severity": {
+   "high": 18,
+   "medium": 12,
+   "low": 50
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "integrations/email/src/imap.ts",
+      "line": 203,
+      "cwe": "CWE-295",
+      "snippet": "tlsOptions: { rejectUnauthorized: false },"
+     }
+    ]
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "integrations/salesforce/src/misc/utils/query-utils.ts",
+      "line": 10,
+      "cwe": "CWE-89",
+      "snippet": "let query = `SELECT ${objectFields} FROM ${objectType}`"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/odoo/src/odoo-client/actions/errors.ts",
+      "line": 12,
+      "cwe": "CWE-95",
+      "snippet": "const invalidFieldMatch = /Invalid field '([^']+)' (?:on|in) '([^']+)'/.exec(message)"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/gsheets/src/google-api/a1-notation-utils/a1-parser.ts",
+      "line": 113,
+      "cwe": "CWE-95",
+      "snippet": "const match = CELL_PATTERN.exec(cell)"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/chat/src/id-store/dynamo-db-store.ts",
+      "line": 181,
+      "cwe": "CWE-89",
+      "snippet": "Statement: `SELECT ${indexSortKey}, ${sortKey} FROM \"${tableName}\".\"${indexName}\" WHERE ${partitionKey} = ? AND ${indexSortKey} IN (${placeholders})`,"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 43,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "integrations/slack/integration.definition.ts",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "// TODO: use default options"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/slack/src/channels.ts",
+      "line": 210,
+      "cwe": "CWE-",
+      "snippet": "const thread = (conversation.tags as Record<string, string>).thread // TODO: fix cast in SDK typings"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/slack/src/actions/find-target.ts",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "// TODO: perform mapping in the slack client directly; we don't want"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/slack/definitions/user-tags.ts",
+      "line": 12,
+      "cwe": "CWE-",
+      "snippet": "description: 'The Slack ID of the user (U0000XXXXXX)',"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/slack/definitions/channels/text-input-schema.ts",
+      "line": 168,
+      "cwe": "CWE-",
+      "snippet": "// confirm: // TODO:"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/sendgrid/definitions/actions.ts",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "body: NonBlankString.describe('The markdown rich-text body of the email').title('Email Body'), // TODO: Think of an example to place here"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/resend/definitions/actions.ts",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "body: NonBlankString.describe('The markdown rich-text body of the email').title('Email Body'), // TODO: Think of an example to place here"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/notion/src/notion-api/notion-client.ts",
+      "line": 200,
+      "cwe": "CWE-",
+      "snippet": "// TODO: do not return the raw response; perform mapping"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/mistral-ai/src/index.ts",
+      "line": 15,
+      "cwe": "CWE-",
+      "snippet": "tags: [/* TODO: Add tags */],"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/mistral-ai/src/actions/generate-content.ts",
+      "line": 210,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Investigate showing images, for now it's not supported by any other provider"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/mintlify/definitions/schemas.ts",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "todos: z"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/messenger/integration.definition.ts",
+      "line": 157,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Rename to 'userToken' if we bump a major"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/linear/src/handler.ts",
+      "line": 127,
+      "cwe": "CWE-",
+      "snippet": "userId: userId as string, // TODO: fix this"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/linear/src/misc/utils.ts",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "// TODO: fixme"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/linear/definitions/schemas.ts",
+      "line": 85,
+      "cwe": "CWE-",
+      "snippet": "number: z.number().title('Number').describe('The issue number on Linear, such as \"123\" in XXX-123'),"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/linear/definitions/states.ts",
+      "line": 42,
+      "cwe": "CWE-",
+      "snippet": "// TODO: delete these 2 states when the backend stop considering state deletion as breaking change"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/line/src/index.ts",
+      "line": 125,
+      "cwe": "CWE-",
+      "snippet": "// TODO: fix audio, its not working"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/intercom/integration.definition.ts",
+      "line": 23,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Uncomment this once the Intercom app is approved"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/intercom/src/auth.ts",
+      "line": 9,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Change null for 'manual' once the Intercom app is approved"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/hubspot/integration.definition.ts",
+      "line": 89,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove once the OAuth app allows for unlimited installs"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/groq/src/index.ts",
+      "line": 98,
+      "cwe": "CWE-",
+      "snippet": "groqClient as any, // TODO: fix mismatch of openai version"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/googledrivekb/integration.definition.ts",
+      "line": 18,
+      "cwe": "CWE-",
+      "snippet": "// TODO: use default options"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/googledrive/integration.definition.ts",
+      "line": 22,
+      "cwe": "CWE-",
+      "snippet": "// TODO: use default options"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/google-ai/src/actions/generate-content.ts",
+      "line": 252,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Support input audio content, but this will require also supporting separate pricing for input audio tokens as Google charges them at a higher rate than text/image/video to"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/github/src/misc/github-settings.ts",
+      "line": 71,
+      "cwe": "CWE-",
+      "snippet": "* FIXME: Remove this workaround once ZUI gets support for multi-line inputs and"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 13,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "integrations/slack/src/webhook-events/signature-validator.test.ts",
+      "line": 5,
+      "cwe": "CWE-798",
+      "snippet": "const VALID_SIGNING_SECRET = 'valid-signing-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-storefront/src/handler.test.ts",
+      "line": 5,
+      "cwe": "CWE-798",
+      "snippet": "const SECRET = 'test-shopify-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-storefront/src/oauth/hmac.test.ts",
+      "line": 5,
+      "cwe": "CWE-798",
+      "snippet": "const SECRET = 'test-shopify-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-storefront/src/client/index.test.ts",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "process.env.SECRET_SHOPIFY_CLIENT_SECRET = 'test-client-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-admin/src/auth.test.ts",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "process.env.SECRET_SHOPIFY_CLIENT_SECRET = 'test-client-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-admin/src/handler.test.ts",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "const SECRET = 'test-shopify-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-admin/src/oauth/hmac.test.ts",
+      "line": 5,
+      "cwe": "CWE-798",
+      "snippet": "const SECRET = 'test-shopify-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/shopify-admin/src/client/index.test.ts",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "process.env.SECRET_SHOPIFY_CLIENT_SECRET = 'test-client-secret'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/sharepoint-excel/src/misc/utils.test.ts",
+      "line": 100,
+      "cwe": "CWE-798",
+      "snippet": "expect(lines[0]).toBe('-----BEGIN PRIVATE KEY-----')"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/sharepoint-excel/src/misc/utils.ts",
+      "line": 10,
+      "cwe": "CWE-798",
+      "snippet": ".replace(/-----BEGIN PRIVATE KEY-----/g, '')"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/sharepoint/src/misc/utils.ts",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "return `-----BEGIN PRIVATE KEY-----\\n${stripped}\\n-----END PRIVATE KEY-----`"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/instagram/refreshTokens.ts",
+      "line": 23,
+      "cwe": "CWE-798",
+      "snippet": "const INTEGRATION_SECRET_SANDBOX_ACCESS_TOKEN = 'SANDBOX_ACCESS_TOKEN'"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/github/src/definitions/index.ts",
+      "line": 43,
+      "cwe": "CWE-798",
+      "snippet": ".placeholder('-----BEGIN RSA PRIVATE KEY-----\\n\\n...\\n\\n-----END RSA PRIVATE KEY-----'),"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "integrations/shopify-storefront/src/oauth/wizard.test.ts",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "expect(normalizeShopDomain('http://my-store.myshopify.com')).toBe('my-store')"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/shopify-admin/src/oauth/wizard.test.ts",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "expect(normalizeShopDomain('http://my-store.myshopify.com')).toBe('my-store')"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/sharepoint/src/SharepointClient.ts",
+      "line": 185,
+      "cwe": "CWE-",
+      "snippet": "files: Array<{ name: string; serverRelativeUrl: string; length: number; timeLastModified: string; eTag: string }>"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/sharepoint/src/misc/SharepointTypes.ts",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "ETag: string"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/sharepoint/src/files-readonly/mapping.ts",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "file: { name: string; serverRelativeUrl: string; length: number; timeLastModified: string; eTag: string },"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/browser/src/utils/globs.test.ts",
+      "line": 23,
+      "cwe": "CWE-319",
+      "snippet": "expect(matchGlob('http://sub.example.com', '*')).toBe(true)"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 13,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "integrations/shopify-storefront/src/client/index.ts",
+      "line": 24,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/shopify-storefront/src/client/storefront.ts",
+      "line": 46,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/shopify-admin/src/client/index.ts",
+      "line": 58,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/postmark/src/messages.ts",
+      "line": 69,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, { signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) })"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/messenger/src/misc/utils.ts",
+      "line": 32,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, { method: 'HEAD' })"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/linkedin/src/linkedin-api/base-api.ts",
+      "line": 30,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/hubspot/src/hitl/utils/media.ts",
+      "line": 16,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, { method: 'HEAD' })"
+     },
+     {
+      "severity": "low",
+      "file": "integrations/github/src/handler.ts",
+      "line": 119,
+      "cwe": "CWE-601",
+      "snippet": "// Fresh-install redirect (or the 0-installation fallback below): GitHub"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/freshdesk/src/freshdesk-client/FreshdeskClient.ts",
+      "line": 55,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/freshchat/src/util.ts",
+      "line": 49,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, { method: 'HEAD' })"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/browser/src/actions/get-website-logo.ts",
+      "line": 28,
+      "cwe": "CWE-918",
+      "snippet": "const buffer = (await fetch(url)).arrayBuffer()"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/bamboohr/src/api/bamboohr-client.ts",
+      "line": 55,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url, { ...params, headers })"
+     },
+     {
+      "severity": "medium",
+      "file": "integrations/attio/src/attio-api.ts",
+      "line": 140,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, config)"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 4,
+  "files_with_findings": 4,
+  "severity": {
+   "high": 2,
+   "medium": 0,
+   "low": 2
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "integrations/mistral-ai/src/actions/generate-content.ts",
+      "line": 74,
+      "cwe": "CWE-1427",
+      "snippet": "input.systemPrompt ="
+     },
+     {
+      "severity": "low",
+      "file": "integrations/anthropic/src/actions/generate-content.ts",
+      "line": 65,
+      "cwe": "CWE-1427",
+      "snippet": "input.systemPrompt ="
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "integrations/openai/integration.definition.ts",
+      "line": 50,
+      "cwe": "CWE-798",
+      "snippet": "OPENAI_API_KEY: {"
+     },
+     {
+      "severity": "high",
+      "file": "integrations/openai/src/index.ts",
+      "line": 14,
+      "cwe": "CWE-798",
+      "snippet": "apiKey: bp.secrets.OPENAI_API_KEY,"
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3d5e15d5-87f7-5243-9789-400ec66a4076",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T09:38:00Z",
+   "component": {
+    "type": "application",
+    "name": "BOTPRESS",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/BOTPRESS@83b357604d34",
+    "purl": "pkg:generic/anticloud/BOTPRESS@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@botpress/common",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/common@workspace:*",
+    "bom-ref": "npm/@botpress/common@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpress/sdk",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/sdk@workspace:*",
+    "bom-ref": "npm/@botpress/sdk@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpress/sdk-addons",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/sdk-addons@workspace:*",
+    "bom-ref": "npm/@botpress/sdk-addons@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@bpinternal/slackdown",
+    "version": "^0.1.0",
+    "purl": "pkg:npm/@bpinternal/slackdown@^0.1.0",
+    "bom-ref": "npm/@bpinternal/slackdown@^0.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@slack/types",
+    "version": "^2.20.0",
+    "purl": "pkg:npm/@slack/types@^2.20.0",
+    "bom-ref": "npm/@slack/types@^2.20.0"
+   },
+   {
+    "type": "library",
+    "name": "@slack/web-api",
+    "version": "^6.13.0",
+    "purl": "pkg:npm/@slack/web-api@^6.13.0",
+    "bom-ref": "npm/@slack/web-api@^6.13.0"
+   },
+   {
+    "type": "library",
+    "name": "axios",
+    "version": "^1.3.4",
+    "purl": "pkg:npm/axios@^1.3.4",
+    "bom-ref": "npm/axios@^1.3.4"
+   },
+   {
+    "type": "library",
+    "name": "fuse.js",
+    "version": "^6.6.2",
+    "purl": "pkg:npm/fuse.js@^6.6.2",
+    "bom-ref": "npm/fuse.js@^6.6.2"
+   },
+   {
+    "type": "library",
+    "name": "@botpress/cli",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/cli@workspace:*",
+    "bom-ref": "npm/@botpress/cli@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpress/client",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/client@workspace:*",
+    "bom-ref": "npm/@botpress/client@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "oxfmt",
+    "version": "^0.61.0",
+    "purl": "pkg:npm/oxfmt@^0.61.0",
+    "bom-ref": "npm/oxfmt@^0.61.0"
+   },
+   {
+    "type": "library",
+    "name": "@shopify/cli",
+    "version": "~4.1.0",
+    "purl": "pkg:npm/@shopify/cli@~4.1.0",
+    "bom-ref": "npm/@shopify/cli@~4.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@azure/msal-node",
+    "version": "^3.6.2",
+    "purl": "pkg:npm/@azure/msal-node@^3.6.2",
+    "bom-ref": "npm/@azure/msal-node@^3.6.2"
+   },
+   {
+    "type": "library",
+    "name": "xlsx",
+    "version": "^0.18.5",
+    "purl": "pkg:npm/xlsx@^0.18.5",
+    "bom-ref": "npm/xlsx@^0.18.5"
+   },
+   {
+    "type": "library",
+    "name": "@sendgrid/client",
+    "version": "^8.1.5",
+    "purl": "pkg:npm/@sendgrid/client@^8.1.5",
+    "bom-ref": "npm/@sendgrid/client@^8.1.5"
+   },
+   {
+    "type": "library",
+    "name": "@sendgrid/eventwebhook",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@sendgrid/eventwebhook@^8.0.0",
+    "bom-ref": "npm/@sendgrid/eventwebhook@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@sendgrid/helpers",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@sendgrid/helpers@^8.0.0",
+    "bom-ref": "npm/@sendgrid/helpers@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@sendgrid/mail",
+    "version": "^8.1.5",
+    "purl": "pkg:npm/@sendgrid/mail@^8.1.5",
+    "bom-ref": "npm/@sendgrid/mail@^8.1.5"
+   },
+   {
+    "type": "library",
+    "name": "markdown-it",
+    "version": "^14.1.0",
+    "purl": "pkg:npm/markdown-it@^14.1.0",
+    "bom-ref": "npm/markdown-it@^14.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/markdown-it",
+    "version": "^14.1.2",
+    "purl": "pkg:npm/@types/markdown-it@^14.1.2",
+    "bom-ref": "npm/@types/markdown-it@^14.1.2"
+   },
+   {
+    "type": "library",
+    "name": "jsforce",
+    "version": "^1.11.1",
+    "purl": "pkg:npm/jsforce@^1.11.1",
+    "bom-ref": "npm/jsforce@^1.11.1"
+   },
+   {
+    "type": "library",
+    "name": "preact",
+    "version": "^10.26.6",
+    "purl": "pkg:npm/preact@^10.26.6",
+    "bom-ref": "npm/preact@^10.26.6"
+   },
+   {
+    "type": "library",
+    "name": "preact-render-to-string",
+    "version": "^6.5.13",
+    "purl": "pkg:npm/preact-render-to-string@^6.5.13",
+    "bom-ref": "npm/preact-render-to-string@^6.5.13"
+   },
+   {
+    "type": "library",
+    "name": "@types/jsforce",
+    "version": "^1.11.5",
+    "purl": "pkg:npm/@types/jsforce@^1.11.5",
+    "bom-ref": "npm/@types/jsforce@^1.11.5"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22.16.4",
+    "purl": "pkg:npm/@types/node@^22.16.4",
+    "bom-ref": "npm/@types/node@^22.16.4"
+   },
+   {
+    "type": "library",
+    "name": "resend",
+    "version": "^4.6.0",
+    "purl": "pkg:npm/resend@^4.6.0",
+    "bom-ref": "npm/resend@^4.6.0"
+   },
+   {
+    "type": "library",
+    "name": "svix",
+    "version": "^1.69.0",
+    "purl": "pkg:npm/svix@^1.69.0",
+    "bom-ref": "npm/svix@^1.69.0"
+   },
+   {
+    "type": "library",
+    "name": "postmark",
+    "version": "^4.0.7",
+    "purl": "pkg:npm/postmark@^4.0.7",
+    "bom-ref": "npm/postmark@^4.0.7"
+   },
+   {
+    "type": "library",
+    "name": "marked",
+    "version": "^15.0.1",
+    "purl": "pkg:npm/marked@^15.0.1",
+    "bom-ref": "npm/marked@^15.0.1"
+   },
+   {
+    "type": "library",
+    "name": "openai",
+    "version": "^6.9.0",
+    "purl": "pkg:npm/openai@^6.9.0",
+    "bom-ref": "npm/openai@^6.9.0"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/llm",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/llm@workspace:*",
+    "bom-ref": "npm/@botpresshub/llm@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/speech-to-text",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/speech-to-text@workspace:*",
+    "bom-ref": "npm/@botpresshub/speech-to-text@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/text-to-image",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/text-to-image@workspace:*",
+    "bom-ref": "npm/@botpresshub/text-to-image@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@notionhq/client",
+    "version": "^5.6.0",
+    "purl": "pkg:npm/@notionhq/client@^5.6.0",
+    "bom-ref": "npm/@notionhq/client@^5.6.0"
+   },
+   {
+    "type": "library",
+    "name": "@tryfabric/martian",
+    "version": "^1.2.4",
+    "purl": "pkg:npm/@tryfabric/martian@^1.2.4",
+    "bom-ref": "npm/@tryfabric/martian@^1.2.4"
+   },
+   {
+    "type": "library",
+    "name": "notion-to-md",
+    "version": "^4.0.0-alpha.4",
+    "purl": "pkg:npm/notion-to-md@^4.0.0-alpha.4",
+    "bom-ref": "npm/notion-to-md@^4.0.0-alpha.4"
+   },
+   {
+    "type": "library",
+    "name": "@mistralai/mistralai",
+    "version": "^1.11.0",
+    "purl": "pkg:npm/@mistralai/mistralai@^1.11.0",
+    "bom-ref": "npm/@mistralai/mistralai@^1.11.0"
+   },
+   {
+    "type": "library",
+    "name": "messaging-api-messenger",
+    "version": "^1.1.0",
+    "purl": "pkg:npm/messaging-api-messenger@^1.1.0",
+    "bom-ref": "npm/messaging-api-messenger@^1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@mailchimp/mailchimp_marketing",
+    "version": "^3.0.80",
+    "purl": "pkg:npm/@mailchimp/mailchimp_marketing@^3.0.80",
+    "bom-ref": "npm/@mailchimp/mailchimp_marketing@^3.0.80"
+   },
+   {
+    "type": "library",
+    "name": "@types/mailchimp__mailchimp_marketing",
+    "version": "3.0.10",
+    "purl": "pkg:npm/@types/mailchimp__mailchimp_marketing@3.0.10",
+    "bom-ref": "npm/@types/mailchimp__mailchimp_marketing@3.0.10"
+   },
+   {
+    "type": "library",
+    "name": "@linear/sdk",
+    "version": "^65.2.0",
+    "purl": "pkg:npm/@linear/sdk@^65.2.0",
+    "bom-ref": "npm/@linear/sdk@^65.2.0"
+   },
+   {
+    "type": "library",
+    "name": "query-string",
+    "version": "^6.14.1",
+    "purl": "pkg:npm/query-string@^6.14.1",
+    "bom-ref": "npm/query-string@^6.14.1"
+   },
+   {
+    "type": "library",
+    "name": "tsafe",
+    "version": "^1.6.4",
+    "purl": "pkg:npm/tsafe@^1.6.4",
+    "bom-ref": "npm/tsafe@^1.6.4"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/deletable",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/deletable@workspace:*",
+    "bom-ref": "npm/@botpresshub/deletable@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/listable",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/listable@workspace:*",
+    "bom-ref": "npm/@botpresshub/listable@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/proactive-conversation",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/proactive-conversation@workspace:*",
+    "bom-ref": "npm/@botpresshub/proactive-conversation@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@line/bot-sdk",
+    "version": "^9.5.0",
+    "purl": "pkg:npm/@line/bot-sdk@^9.5.0",
+    "bom-ref": "npm/@line/bot-sdk@^9.5.0"
+   },
+   {
+    "type": "library",
+    "name": "remark",
+    "version": "^15.0.1",
+    "purl": "pkg:npm/remark@^15.0.1",
+    "bom-ref": "npm/remark@^15.0.1"
+   },
+   {
+    "type": "library",
+    "name": "remark-gfm",
+    "version": "^4.0.1",
+    "purl": "pkg:npm/remark-gfm@^4.0.1",
+    "bom-ref": "npm/remark-gfm@^4.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/proactive-user",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/proactive-user@workspace:*",
+    "bom-ref": "npm/@botpresshub/proactive-user@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/typing-indicator",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/typing-indicator@workspace:*",
+    "bom-ref": "npm/@botpresshub/typing-indicator@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@types/mdast",
+    "version": "^4.0.4",
+    "purl": "pkg:npm/@types/mdast@^4.0.4",
+    "bom-ref": "npm/@types/mdast@^4.0.4"
+   },
+   {
+    "type": "library",
+    "name": "jira.js",
+    "version": "^2.19.1",
+    "purl": "pkg:npm/jira.js@^2.19.1",
+    "bom-ref": "npm/jira.js@^2.19.1"
+   },
+   {
+    "type": "library",
+    "name": "intercom-client",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/intercom-client@^4.0.0",
+    "bom-ref": "npm/intercom-client@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "dotenv",
+    "version": "^16.4.4",
+    "purl": "pkg:npm/dotenv@^16.4.4",
+    "bom-ref": "npm/dotenv@^16.4.4"
+   },
+   {
+    "type": "library",
+    "name": "@hubspot/api-client",
+    "version": "^13.1.0",
+    "purl": "pkg:npm/@hubspot/api-client@^13.1.0",
+    "bom-ref": "npm/@hubspot/api-client@^13.1.0"
+   },
+   {
+    "type": "library",
+    "name": "googleapis",
+    "version": "^171.4.0",
+    "purl": "pkg:npm/googleapis@^171.4.0",
+    "bom-ref": "npm/googleapis@^171.4.0"
+   },
+   {
+    "type": "library",
+    "name": "jsonwebtoken",
+    "version": "^9.0.2",
+    "purl": "pkg:npm/jsonwebtoken@^9.0.2",
+    "bom-ref": "npm/jsonwebtoken@^9.0.2"
+   },
+   {
+    "type": "library",
+    "name": "uuid",
+    "version": "^9.0.0",
+    "purl": "pkg:npm/uuid@^9.0.0",
+    "bom-ref": "npm/uuid@^9.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.3",
+    "purl": "pkg:npm/@types/jsonwebtoken@^9.0.3",
+    "bom-ref": "npm/@types/jsonwebtoken@^9.0.3"
+   },
+   {
+    "type": "library",
+    "name": "@types/uuid",
+    "version": "^9.0.1",
+    "purl": "pkg:npm/@types/uuid@^9.0.1",
+    "bom-ref": "npm/@types/uuid@^9.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/creatable",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/creatable@workspace:*",
+    "bom-ref": "npm/@botpresshub/creatable@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/readable",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/readable@workspace:*",
+    "bom-ref": "npm/@botpresshub/readable@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/updatable",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/updatable@workspace:*",
+    "bom-ref": "npm/@botpresshub/updatable@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@google/genai",
+    "version": "^1.7.0",
+    "purl": "pkg:npm/@google/genai@^1.7.0",
+    "bom-ref": "npm/@google/genai@^1.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@react-email/components",
+    "version": "0.0.25",
+    "purl": "pkg:npm/@react-email/components@0.0.25",
+    "bom-ref": "npm/@react-email/components@0.0.25"
+   },
+   {
+    "type": "library",
+    "name": "gmail-api-parse-message",
+    "version": "^2.1.2",
+    "purl": "pkg:npm/gmail-api-parse-message@^2.1.2",
+    "bom-ref": "npm/gmail-api-parse-message@^2.1.2"
+   },
+   {
+    "type": "library",
+    "name": "node-html-parser",
+    "version": "^6",
+    "purl": "pkg:npm/node-html-parser@^6",
+    "bom-ref": "npm/node-html-parser@^6"
+   },
+   {
+    "type": "library",
+    "name": "nodemailer",
+    "version": "^6.7.2",
+    "purl": "pkg:npm/nodemailer@^6.7.2",
+    "bom-ref": "npm/nodemailer@^6.7.2"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^18.3.1",
+    "purl": "pkg:npm/react@^18.3.1",
+    "bom-ref": "npm/react@^18.3.1"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^18.3.1",
+    "purl": "pkg:npm/react-dom@^18.3.1",
+    "bom-ref": "npm/react-dom@^18.3.1"
+   },
+   {
+    "type": "library",
+    "name": "@types/nodemailer",
+    "version": "^6.4.4",
+    "purl": "pkg:npm/@types/nodemailer@^6.4.4",
+    "bom-ref": "npm/@types/nodemailer@^6.4.4"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^18.3.11",
+    "purl": "pkg:npm/@types/react@^18.3.11",
+    "bom-ref": "npm/@types/react@^18.3.11"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "^18.3.1",
+    "purl": "pkg:npm/@types/react-dom@^18.3.1",
+    "bom-ref": "npm/@types/react-dom@^18.3.1"
+   },
+   {
+    "type": "library",
+    "name": "@octokit/webhooks-methods",
+    "version": "^3.0.2",
+    "purl": "pkg:npm/@octokit/webhooks-methods@^3.0.2",
+    "bom-ref": "npm/@octokit/webhooks-methods@^3.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@octokit/webhooks-types",
+    "version": "^7.6.1",
+    "purl": "pkg:npm/@octokit/webhooks-types@^7.6.1",
+    "bom-ref": "npm/@octokit/webhooks-types@^7.6.1"
+   },
+   {
+    "type": "library",
+    "name": "octokit",
+    "version": "^2.0.19",
+    "purl": "pkg:npm/octokit@^2.0.19",
+    "bom-ref": "npm/octokit@^2.0.19"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/hitl",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/hitl@workspace:*",
+    "bom-ref": "npm/@botpresshub/hitl@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@types/lodash",
+    "version": "^4.14.191",
+    "purl": "pkg:npm/@types/lodash@^4.14.191",
+    "bom-ref": "npm/@types/lodash@^4.14.191"
+   },
+   {
+    "type": "library",
+    "name": "imap",
+    "version": "^0.8.17",
+    "purl": "pkg:npm/imap@^0.8.17",
+    "bom-ref": "npm/imap@^0.8.17"
+   },
+   {
+    "type": "library",
+    "name": "@types/imap",
+    "version": "^0.8.42",
+    "purl": "pkg:npm/@types/imap@^0.8.42",
+    "bom-ref": "npm/@types/imap@^0.8.42"
+   },
+   {
+    "type": "library",
+    "name": "dropbox",
+    "version": "^10.34.0",
+    "purl": "pkg:npm/dropbox@^10.34.0",
+    "bom-ref": "npm/dropbox@^10.34.0"
+   },
+   {
+    "type": "library",
+    "name": "docusign-esign",
+    "version": "^8.4.0",
+    "purl": "pkg:npm/docusign-esign@^8.4.0",
+    "bom-ref": "npm/docusign-esign@^8.4.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/docusign-esign",
+    "version": "^5.19.9",
+    "purl": "pkg:npm/@types/docusign-esign@^5.19.9",
+    "bom-ref": "npm/@types/docusign-esign@^5.19.9"
+   },
+   {
+    "type": "library",
+    "name": "rehype-stringify",
+    "version": "^10.0.1",
+    "purl": "pkg:npm/rehype-stringify@^10.0.1",
+    "bom-ref": "npm/rehype-stringify@^10.0.1"
+   },
+   {
+    "type": "library",
+    "name": "remark-parse",
+    "version": "^11.0.0",
+    "purl": "pkg:npm/remark-parse@^11.0.0",
+    "bom-ref": "npm/remark-parse@^11.0.0"
+   },
+   {
+    "type": "library",
+    "name": "remark-rehype",
+    "version": "^11.1.2",
+    "purl": "pkg:npm/remark-rehype@^11.1.2",
+    "bom-ref": "npm/remark-rehype@^11.1.2"
+   },
+   {
+    "type": "library",
+    "name": "unified",
+    "version": "^11.0.5",
+    "purl": "pkg:npm/unified@^11.0.5",
+    "bom-ref": "npm/unified@^11.0.5"
+   },
+   {
+    "type": "library",
+    "name": "@aws-sdk/client-dynamodb",
+    "version": "^3.564.0",
+    "purl": "pkg:npm/@aws-sdk/client-dynamodb@^3.564.0",
+    "bom-ref": "npm/@aws-sdk/client-dynamodb@^3.564.0"
+   },
+   {
+    "type": "library",
+    "name": "@bpinternal/pingrip",
+    "version": "0.1.1",
+    "purl": "pkg:npm/@bpinternal/pingrip@0.1.1",
+    "bom-ref": "npm/@bpinternal/pingrip@0.1.1"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/api",
+    "version": "1.9.0",
+    "purl": "pkg:npm/@opentelemetry/api@1.9.0",
+    "bom-ref": "npm/@opentelemetry/api@1.9.0"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/core",
+    "version": "1.30.0",
+    "purl": "pkg:npm/@opentelemetry/core@1.30.0",
+    "bom-ref": "npm/@opentelemetry/core@1.30.0"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/exporter-trace-otlp-http",
+    "version": "0.54.2",
+    "purl": "pkg:npm/@opentelemetry/exporter-trace-otlp-http@0.54.2",
+    "bom-ref": "npm/@opentelemetry/exporter-trace-otlp-http@0.54.2"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/instrumentation",
+    "version": "0.54.2",
+    "purl": "pkg:npm/@opentelemetry/instrumentation@0.54.2",
+    "bom-ref": "npm/@opentelemetry/instrumentation@0.54.2"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/instrumentation-http",
+    "version": "0.54.2",
+    "purl": "pkg:npm/@opentelemetry/instrumentation-http@0.54.2",
+    "bom-ref": "npm/@opentelemetry/instrumentation-http@0.54.2"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/resources",
+    "version": "1.27.0",
+    "purl": "pkg:npm/@opentelemetry/resources@1.27.0",
+    "bom-ref": "npm/@opentelemetry/resources@1.27.0"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/sdk-trace-base",
+    "version": "1.27.0",
+    "purl": "pkg:npm/@opentelemetry/sdk-trace-base@1.27.0",
+    "bom-ref": "npm/@opentelemetry/sdk-trace-base@1.27.0"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/sdk-trace-node",
+    "version": "1.27.0",
+    "purl": "pkg:npm/@opentelemetry/sdk-trace-node@1.27.0",
+    "bom-ref": "npm/@opentelemetry/sdk-trace-node@1.27.0"
+   },
+   {
+    "type": "library",
+    "name": "ajv",
+    "version": "^8.12.0",
+    "purl": "pkg:npm/ajv@^8.12.0",
+    "bom-ref": "npm/ajv@^8.12.0"
+   },
+   {
+    "type": "library",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "purl": "pkg:npm/lodash@^4.17.21",
+    "bom-ref": "npm/lodash@^4.17.21"
+   },
+   {
+    "type": "library",
+    "name": "prom-client",
+    "version": "^15.1.3",
+    "purl": "pkg:npm/prom-client@^15.1.3",
+    "bom-ref": "npm/prom-client@^15.1.3"
+   },
+   {
+    "type": "library",
+    "name": "qs",
+    "version": "^6.11.0",
+    "purl": "pkg:npm/qs@^6.11.0",
+    "bom-ref": "npm/qs@^6.11.0"
+   },
+   {
+    "type": "library",
+    "name": "@botpress/chat-api",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpress/chat-api@workspace:*",
+    "bom-ref": "npm/@botpress/chat-api@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@types/json-schema",
+    "version": "^7.0.12",
+    "purl": "pkg:npm/@types/json-schema@^7.0.12",
+    "bom-ref": "npm/@types/json-schema@^7.0.12"
+   },
+   {
+    "type": "library",
+    "name": "@types/qs",
+    "version": "^6.9.7",
+    "purl": "pkg:npm/@types/qs@^6.9.7",
+    "bom-ref": "npm/@types/qs@^6.9.7"
+   },
+   {
+    "type": "library",
+    "name": "chart.js",
+    "version": "^3.9.1",
+    "purl": "pkg:npm/chart.js@^3.9.1",
+    "bom-ref": "npm/chart.js@^3.9.1"
+   },
+   {
+    "type": "library",
+    "name": "@mendable/firecrawl-js",
+    "version": "^4.3.8",
+    "purl": "pkg:npm/@mendable/firecrawl-js@^4.3.8",
+    "bom-ref": "npm/@mendable/firecrawl-js@^4.3.8"
+   },
+   {
+    "type": "library",
+    "name": "asana",
+    "version": "^1.0.2",
+    "purl": "pkg:npm/asana@^1.0.2",
+    "bom-ref": "npm/asana@^1.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/asana",
+    "version": "^0.18.12",
+    "purl": "pkg:npm/@types/asana@^0.18.12",
+    "bom-ref": "npm/@types/asana@^0.18.12"
+   },
+   {
+    "type": "library",
+    "name": "@anthropic-ai/sdk",
+    "version": "^0.52.0",
+    "purl": "pkg:npm/@anthropic-ai/sdk@^0.52.0",
+    "bom-ref": "npm/@anthropic-ai/sdk@^0.52.0"
+   },
+   {
+    "type": "library",
+    "name": "airtable",
+    "version": "^0.12.2",
+    "purl": "pkg:npm/airtable@^0.12.2",
+    "bom-ref": "npm/airtable@^0.12.2"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/chat",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/chat@workspace:*",
+    "bom-ref": "npm/@botpresshub/chat@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/dropbox",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/dropbox@workspace:*",
+    "bom-ref": "npm/@botpresshub/dropbox@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/file-synchronizer",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/file-synchronizer@workspace:*",
+    "bom-ref": "npm/@botpresshub/file-synchronizer@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@bpinternal/genenv",
+    "version": "0.0.1",
+    "purl": "pkg:npm/@bpinternal/genenv@0.0.1",
+    "bom-ref": "npm/@bpinternal/genenv@0.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/gmail",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/gmail@workspace:*",
+    "bom-ref": "npm/@botpresshub/gmail@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/slack",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/slack@workspace:*",
+    "bom-ref": "npm/@botpresshub/slack@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/linear",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/linear@workspace:*",
+    "bom-ref": "npm/@botpresshub/linear@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/synchronizer",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/synchronizer@workspace:*",
+    "bom-ref": "npm/@botpresshub/synchronizer@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/gsheets",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/gsheets@workspace:*",
+    "bom-ref": "npm/@botpresshub/gsheets@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/telegram",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/telegram@workspace:*",
+    "bom-ref": "npm/@botpresshub/telegram@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/notion",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/notion@workspace:*",
+    "bom-ref": "npm/@botpresshub/notion@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/knowledge",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/knowledge@workspace:*",
+    "bom-ref": "npm/@botpresshub/knowledge@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/openai",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/openai@workspace:*",
+    "bom-ref": "npm/@botpresshub/openai@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/personality",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/personality@workspace:*",
+    "bom-ref": "npm/@botpresshub/personality@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/hitl-plugin",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/hitl-plugin@workspace:*",
+    "bom-ref": "npm/@botpresshub/hitl-plugin@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/zendesk",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/zendesk@workspace:*",
+    "bom-ref": "npm/@botpresshub/zendesk@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/todoist",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/todoist@workspace:*",
+    "bom-ref": "npm/@botpresshub/todoist@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "cheerio",
+    "version": "^1.1.2",
+    "purl": "pkg:npm/cheerio@^1.1.2",
+    "bom-ref": "npm/cheerio@^1.1.2"
+   },
+   {
+    "type": "library",
+    "name": "@botpresshub/github",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@botpresshub/github@workspace:*",
+    "bom-ref": "npm/@botpresshub/github@workspace:*"
+   }
+  ]
+ },
+ "elapsed_seconds": 131.87
+}
